@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ciné-CLUBoubeh</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="costar" src="Image/Logo.png">
+        </div>
+        <h1>Ciné-CLUBoubeh</h1>
+        <nav>
+
+            <ul>
+                <li><a href="#acteurs">Acteurs/Personnages</a></li>
+                <li><a href="">Réservation</a></li>
+                <li><a href="avis.html">Avis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="acteurs">
+            <!-- Contenu de la page Acteurs/Personnages -->
+            <!-- Vous pouvez ajouter du contenu ici -->
+        </section>
+
+        <section id="reservation">
+            <!-- Formulaire de réservation -->
+            <h2>Réservation</h2>
+            <form action="process_reservation.php" method="post">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="heure">Heure:</label>
+                <input type="time" id="heure" name="heure" required>
+
+                <label for="nombrePlaces">Nombre de places:</label>
+                <input type="number" id="nombrePlaces" name="nombrePlaces" required>
+
+                <input type="submit" value="Réserver">
+            </form>
+        </section>
+
+        <section id="avis">
+            <!-- Formulaire d'avis -->
+            <h2>Avis</h2>
+            <form action="process_avis.php" method="post">
+                <label for="avisTexte">Votre avis:</label>
+                <textarea id="avisTexte" name="avisTexte" rows="4" required></textarea>
+
+                <label for="anonyme">Anonyme:</label>
+                <input type="checkbox" id="anonyme" name="anonyme">
+
+                <input type="submit" value="Soumettre">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Ciné-CLUBoubeh</p>
+    </footer>
+</body>
+
+</html>

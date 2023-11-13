@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ciné-CLUBoubeh</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="costar" src="Image/Logo.png">
+        </div>
+        <h1>Ciné-CLUBoubeh</h1>
+        <nav>
+
+            <ul>
+                <li><a href="#acteurs">Acteurs/Personnages</a></li>
+                <li><a href="reservation.html">Réservation</a></li>
+                <li><a href="avis.html">Avis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="acteurs">
+
+        </section>
+
+        <section id="reservation">
+
+            <h2>Réservation</h2>
+            <form action="process_reservation.php" method="post">
+                <label for="Nom">Nom:</label>
+                <input type="Nom" id="nom" name="nom" required>
+
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="heure">Heure:</label>
+                <input type="time" id="heure" name="heure" required>
+
+                <label for="nombrePlaces">Nombre de places:</label>
+                <input type="number" id="nombrePlaces" name="nombrePlaces" required>
+
+                <input type="submit" value="Réserver">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Ciné-CLUBoubeh</p>
+    </footer>
+</body>
+
+</html>

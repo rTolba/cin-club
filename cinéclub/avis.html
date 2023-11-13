@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="avis.css">
+    <title>Ciné-CLUBoubeh</title>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="costar" src="Image/Logo.png">
+        </div>
+        <h1>Ciné-CLUBoubeh</h1>
+        <nav>
+
+            <ul>
+                <li><a href="#acteurs">Acteurs/Personnages</a></li>
+                <li><a href="reservation.html">Réservation</a></li>
+                <li><a href="avis.html">Avis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="avis">
+        <!-- Formulaire d'avis -->
+        <div class="container">
+            <form action="/action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Prénom</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="prénom" placeholder="Votre prénom...">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Nom de famille</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" prénom="nom de famille" placeholder="Votre nom de famille...">
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Message</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" prénom="Message" placeholder="Ecrivez votre message.."
+                                style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+            </form>
+
+            <footer>
+                <p>&copy; 2023 Ciné-CLUBoubeh</p>
+            </footer>
+</body>
+
+</html>
