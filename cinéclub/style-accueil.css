@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.costar {
+    flex: 1;
+    height: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: red;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-left: 200px;
+    background-color: red;
+}
+
+nav a:hover {
+    background-color: white;
+    color: red;
+}
+
+.image {
+    height: auto;
+    width: 300px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+h1 {
+    background-color: red;
+    color: #fff
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+p {
+    font-family: serif;
+    font-size: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    float: left;
+}
